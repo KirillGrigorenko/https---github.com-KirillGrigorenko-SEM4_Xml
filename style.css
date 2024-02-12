@@ -18,7 +18,7 @@
   
   .change_bg{
     margin-right: 5px;           /* задаем отступ от кнопки справа */
-    margin-top: 5px;             /* задаем отступ от кнопки сверху*/
+    margin-top: 51px;             /* задаем отступ от кнопки сверху*/
     width: 80px;                 /* задаем ширину кнопки */
     height: 50px;                /* задаем высоту кнопки */
     border-radius: 0%;          /* округляем кнопку */
@@ -41,8 +41,10 @@
     font-size: 1.5rem;  
    /* border-radius: 34px; */
 
-    margin: 15px 40%;
+    margin: 15px 30%;
     text-align:center;  
+    font-family: Montserrat;
+    font-weight: bold;
   }
   /* app - все окно */
   .app{
@@ -64,24 +66,31 @@
   .my-btn.primary { 
     background: rgb(255, 8, 243); /* цвет кнопки оранжевый */
   }
+  .my-btn.primary:hover{
+    background-color: #7b0d30;
+  }
   
   /* селектор для кнопок второстепенных операций */
   .my-btn.secondary { 
     background: #7f22cb; /* цвет кнопки сервый */
   }
-  
+
+  .my-btn.secondary:hover{
+    background-color: #3e2961;
+  }
+
   /* селектор для кнопки расчета выражения (=) */
   .my-btn.execute { 
-    width: 100px;          /* сделаем кнопку шире других */
-    border-radius: 34px;   /* подкорректируем округлость */
+    width: 50px;          /* сделаем кнопку шире других */
+    border-radius: 0px;   /* подкорректируем округлость */
   }
   
   /* селектор для поля вывода результата */
   .result { 
     width: 220px;
     height: 50px;
-    border-radius: 15%;          /* округляем кнопку */
-    margin-left: 515px;
+    border-radius: 45%;          /* округляем кнопку */
+    margin: 15px 25%;
     margin-bottom: 15px;         /* отступ снизу */
     padding-right: 10px;         /* выступ справа */
     background: rgb(38, 188, 207); /* цвет можно задавать и таким образом */
