@@ -18,7 +18,7 @@
   
   .change_bg{
     margin-right: 5px;           /* задаем отступ от кнопки справа */
-    margin-top: 51px;             /* задаем отступ от кнопки сверху*/
+    margin-top: 5px;             /* задаем отступ от кнопки сверху*/
     width: 80px;                 /* задаем ширину кнопки */
     height: 50px;                /* задаем высоту кнопки */
     border-radius: 0%;          /* округляем кнопку */
@@ -48,8 +48,10 @@
   }
   /* app - все окно */
   .app{
+    background: url(bg2.jpg);
     background-color: rgb(74, 57, 57);
     text-align:center;  
+    
   }
 
   /* hover - это состояние элемента, когда на него наведен курсор */
@@ -87,13 +89,13 @@
   
   /* селектор для поля вывода результата */
   .result { 
-    width: 220px;
-    height: 50px;
-    border-radius: 45%;          /* округляем кнопку */
+    width: 90%;
+    align-items: center;
+    border-radius: 5%;          /* округляем кнопку */
     border: solid white;
-    margin: 15px 25%;
-    margin-bottom: 15px;         /* отступ снизу */
-    padding-right: 10px;         /* выступ справа */
+    margin-top: 3%;
+    margin-bottom: 3%;         /* отступ снизу */
+    margin-left: 3%;
     background: rgb(38, 188, 207); /* цвет можно задавать и таким образом */
     text-align: center;           /* примагнитим текст к правой стороне */
     color: #ff0000;              /* цвет текста белый */
@@ -102,8 +104,10 @@
   }
 
   .calculator{
-    width: 245px;
-    height: 285px;
     background-color: black;
-    text-align: center;
+    width: 50%;
+    height: 60%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 10px 24%;
   }
